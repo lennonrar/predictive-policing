@@ -1,8 +1,9 @@
+##
 Welcome
 
 Using Ubuntu Multipass to orchestrate VMs
-ssh -N -f -L localhost:8888:localhost:8889 ubuntu@19
-2.168.64.5 ##to fowarding port
-Dependencies
+ssh -N -f -L localhost:8888:localhost:8889 ubuntu@192.168.64.5 ##to fowarding port
+
+##Dependencies
 pip3 install pandas numpy xlrd 
 snap install jupyter
