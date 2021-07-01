@@ -5,4 +5,4 @@ Using Ubuntu Multipass to orchestrate VMs
 ssh -N -f -L localhost:8888:localhost:8889 ubuntu@192.168.64.5 ##to fowarding port
 
 ##Dependencies
-pip install pandas numpy xlrd jupyterlab openpyxl
+pip install pandas numpy xlrd jupyterlab openpyxl pandas psycopg2
